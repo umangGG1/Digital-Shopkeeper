@@ -34,7 +34,7 @@ const App = () => {
         
         <div className={
           
-          `dark:bg-main-bg bg-black min-h-screen w-full
+          `dark:bg-main-bg bg-orange-50 min-h-screen w-full
           ${activeMenu ? ' md:ml-72' :'flex-2'}`}>
             
 
@@ -42,8 +42,8 @@ const App = () => {
             <Navbar/>
             </div>
         
-        <div className="text-white font-bold text-5xl ml-20 pt-20">
-          Digital Dukaandar
+        <div className="text-black font-bold text-5xl ml-20 pt-20">
+          Digital ShopKeeper
         </div>
         <Routes>
           
